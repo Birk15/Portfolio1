@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--default-gap);
+}
+.hero img{
+    margin-top: 150px;
+}
+.hero h1{
+    width: 70%;
+    font-size: 70px;
+    text-align: center;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+}
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: var(--default-gap);
+    margin-bottom: 50px;
+}
+.hero-action .hero-connect{
+    background: var(--linear-color);
+    border-radius: var(--btn-border-radius);
+    padding: 25px 45px;
+    cursor: pointer;
+}
+.hero-action .hero-resume{
+    border: 2px solid white;
+    border-radius: var(--btn-border-radius);
+    padding: 25px 75px;
+    cursor: pointer;
+}
+.hero-action .hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-action .hero-resume:hover{
+    border-color: blueviolet;
+}

@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.amazing-font-color{
+  background: var(--linear-color);
+  background-clip: text;
+  -webkit-background-clip: text; /* Clip den Hintergrund auf den Text */
+  -webkit-text-fill-color: transparent; /* Fülle den Text mit transparent */
+}
+
+:root{
+  --linear-color: linear-gradient(267deg, #DA7C25, #B923E1);
+  --default-font-size: 20px;
+  --default-gap: 30px;
+  --btn-border-radius: 50px;
+}
