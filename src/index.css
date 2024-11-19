@@ -16,6 +16,19 @@ body{
   -webkit-background-clip: text; /* Clip den Hintergrund auf den Text */
   -webkit-text-fill-color: transparent; /* Fülle den Text mit transparent */
 }
+.title{
+  position: relative;
+}
+.title h1{
+  padding: 0px 30px;
+  font-size: 60px;
+}
+.title img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 
 :root{
   --linear-color: linear-gradient(267deg, #DA7C25, #B923E1);

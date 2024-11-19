@@ -1,0 +1,26 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 100px;
+}
+.mywork .mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--default-gap);
+    margin-bottom: 100px;
+}
+.mywork .mywork-container img{
+    width: 419px;
+    height: 280px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork .mywork-container img:hover{
+    scale: 1.1;
+    border: 2px solid rgb(255, 0, 157);
+    border-radius: 10px;
+}

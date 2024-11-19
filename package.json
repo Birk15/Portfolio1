@@ -2,7 +2,7 @@
   "name": "portfolio1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Birk15.github.io/portfolio1",
+  "homepage": "https://Birk15.github.io/portfolio1",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -13,8 +13,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.11.17",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^18.3.1",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

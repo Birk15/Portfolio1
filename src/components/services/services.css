@@ -7,20 +7,6 @@
     width: 100%;
     margin: 100px 0px;
 }
-.services-title{
-    position: relative;
-}
-.services-title h1{
-    padding: 0px 30px;
-    font-size: 60px;
-}
-.services-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
-
 
 .services-container{
     display: flex;
